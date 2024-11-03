@@ -38,7 +38,7 @@ This is a jail system script for FiveM servers using the ESX framework. The syst
    ensure jail_system
    ```
 
-5. **SQL **: The script saves jail data in your sql database. To use that, you have to put the SQL file into your database. That will create you a table called jailed_players, so if a player disconnect or you restart your server the player continues his jail time.
+5. **SQL**: The script saves jail data in your sql database. To use that, you have to put the SQL file into your database. That will create you a table called jailed_players, so if a player disconnect or you restart your server the player continues his jail time.
 
 ## Usage
 
