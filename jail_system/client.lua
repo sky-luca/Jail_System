@@ -26,7 +26,7 @@ RegisterNetEvent("jail:updateRemainingTime", function(minutesLeft)
     lib.notify({ title = "Jail Time", description = "Remaining time: " .. math.ceil(minutesLeft) .. " minutes.", type = "info" })
 end)
 
--- Release player from jail
+
 RegisterNetEvent("jail:releasePlayer", function()
     SetEntityCoords(PlayerPedId(), releaseCoords.x, releaseCoords.y, releaseCoords.z)
     lib.notify({ title = "You are Free", description = "Your jail time has ended.", type = "success" })
