@@ -36,7 +36,7 @@ RegisterNetEvent("jail:sendPlayerToJail", function(playerId, jailTime, jailerId)
             TriggerClientEvent("chat:addMessage", jailerId, { args = { "System", "This player is already in jail." } })
             return
         else
-            -- Insert the jailed player into the database
+
             exports.oxmysql:execute("INSERT INTO jailed_players (license, playerName, timeRemaining) VALUES (@license, @playerName, @timeRemaining)", {
                 ['@license'] = playerLicense,
                 ['@playerName'] = GetPlayerName(playerId),
