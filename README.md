@@ -74,3 +74,6 @@ When a player is jailed or released, a log is sent to the configured Discord web
 - **Command Access**: Only players with the police job (set in ESX) can access jail commands. Make sure the police job is correctly set up in ESX.
 - **Discord Logs Not Working**: Verify that the webhook URL is correct and the Discord server permissions allow messages from the webhook.
 
+## Preview:
+# https://youtu.be/sanYCuua3-4 
+
