@@ -11,6 +11,9 @@ This is a jail system script for FiveM servers using the ESX framework. The syst
 - Saves player jail data to your database
 - Logs all jailing and release events to a Discord channel via a webhook
 
+## Preview:
+## https://youtu.be/sanYCuua3-4 
+
 ## Requirements
 
 - **FiveM Server**: Ensure you have a running FiveM server.
@@ -74,6 +77,4 @@ When a player is jailed or released, a log is sent to the configured Discord web
 - **Command Access**: Only players with the police job (set in ESX) can access jail commands. Make sure the police job is correctly set up in ESX.
 - **Discord Logs Not Working**: Verify that the webhook URL is correct and the Discord server permissions allow messages from the webhook.
 
-## Preview:
-# https://youtu.be/sanYCuua3-4 
 
