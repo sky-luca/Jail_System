@@ -1,4 +1,4 @@
-local discordWebhook = "https://discord.com/api/webhooks/1301842706087022632/xy2VWjeTEATeVgaNg-vRQIgfAb-spsbPc6HpzivpxzzHFxz2WzTRbEbi0KSy4FQpsaVi"  -- Replace with your webhook URL
+local discordWebhook = ""YOUR_DISCORD_WEBHOOK_URL""
 
 
 local function sendDiscordLog(embed)
