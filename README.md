@@ -12,7 +12,7 @@ This is a jail system script for FiveM servers using the ESX framework. The syst
 - Logs all jailing and release events to a Discord channel via a webhook
 
 ## Preview:
-## https://youtu.be/sanYCuua3-4 
+- https://youtu.be/sanYCuua3-4 
 
 ## Requirements
 
